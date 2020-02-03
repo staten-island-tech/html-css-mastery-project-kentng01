@@ -1,4 +1,6 @@
+@import "_animations.scss";
 @import "_d1.scss";
+@import "_medq.scss";
 
 html{
     margin: 0;
@@ -20,20 +22,15 @@ html{
     margin: 0;
     background-image: url(../media/Nightview.jpeg);
     background-color: black;
+
+    @include tablet {
+        font-size: 6rem;
+        letter-spacing: 1.8rem;
+      }
+      @include laptop {
+        font-size: 10rem;
+        letter-spacing: 2.2rem;
+      }
 }
 
-.heading-text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    animation-duration: 5s;
-    animation: shanghai;
-}
-
-@keyframes shanghai{
-    from{
-        
-    }
-}
+.heading-block

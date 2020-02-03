@@ -1,0 +1,16 @@
+.sha {
+    animation-duration: 5s;
+    animation-name: shanghi;
+  }
+  
+  @keyframes shanghi {
+    from {
+      margin-left: 700%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
