@@ -1,8 +1,5 @@
-@function color($color-name) {
-    @return map-get($colors, $color-name);
-  }
-  
-  @mixin desktop {
+    
+    @mixin desktop {
     @media(min-width: #{$desktop}) {
       @content;
     }

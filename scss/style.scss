@@ -2,6 +2,9 @@
 @import "_d1.scss";
 @import "_medq.scss";
 
+@include tablet{}
+@include laptop{}
+
 html{
     margin: 0;
     padding: 0;
@@ -32,5 +35,3 @@ html{
         letter-spacing: 2.2rem;
       }
 }
-
-.heading-block
