@@ -1,16 +1,16 @@
 .sha {
-    animation-duration: 5s;
-    animation-name: shanghi;
+  animation-duration: 2s;
+  animation-name: hi;
+}
+
+@keyframes hi {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
   }
-  
-  @keyframes shanghi {
-    from {
-      margin-left: 700%;
-      width: 300%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }

@@ -1,3 +1,4 @@
+@import "_"
 @import "_animations.scss";
 @import "_d1.scss";
 @import "_medq.scss";
@@ -12,6 +13,10 @@ html{
     box-sizing: border-box;
 }
 
+body{
+  background-color: cadetblue;
+}
+
 .heading-block{
     position: absolute;
     width: 100%;
@@ -24,7 +29,7 @@ html{
     justify-content: center;
     margin: 0;
     background-image: url(../media/Nightview.jpeg);
-    background-color: black;
+
 
     @include tablet {
         font-size: 6rem;
@@ -34,4 +39,5 @@ html{
         font-size: 10rem;
         letter-spacing: 2.2rem;
       }
+clip-path: polygon(0 0, 100% 0, 100% 81%, 0 90%);
 }

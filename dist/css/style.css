@@ -1,36 +1,40 @@
 .sha {
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-name: shanghi;
-          animation-name: shanghi;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: hi;
+          animation-name: hi;
 }
 
-@-webkit-keyframes shanghi {
+@-webkit-keyframes hi {
   from {
-    margin-left: 700%;
-    width: 300%;
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
   }
   to {
-    margin-left: 0%;
-    width: 100%;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
   }
 }
 
-@keyframes shanghi {
+@keyframes hi {
   from {
-    margin-left: 700%;
-    width: 300%;
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
   }
   to {
-    margin-left: 0%;
-    width: 100%;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
   }
 }
 
 .sha {
   position: absolute;
-  width: 753px;
-  height: 238px;
+  width: 701px;
+  height: 196px;
   font-family: Shojumaru;
   font-style: normal;
   font-weight: normal;
@@ -57,6 +61,10 @@ html {
           box-sizing: border-box;
 }
 
+body {
+  background-color: cadetblue;
+}
+
 .heading-block {
   position: absolute;
   width: 100%;
@@ -78,6 +86,21 @@ html {
           justify-content: center;
   margin: 0;
   background-image: url(../media/Nightview.jpeg);
-  background-color: black;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 81%, 0 90%);
+          clip-path: polygon(0 0, 100% 0, 100% 81%, 0 90%);
+}
+
+@media (min-width: 600px) {
+  .heading-block {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .heading-block {
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
