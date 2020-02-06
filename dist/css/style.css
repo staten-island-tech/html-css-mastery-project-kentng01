@@ -6,8 +6,8 @@
 }
 
 .sha {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-name: hi;
           animation-name: hi;
 }
@@ -60,6 +60,45 @@
           backdrop-filter: blur(4px);
 }
 
+@media (min-width: 600px) {
+  .sha {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .sha {
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
+  }
+}
+
+.extitle {
+  position: relative;
+  width: 1041px;
+  height: 200px;
+  left: 199px;
+  top: 64px;
+  font-family: SeoulHangang CB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #000000;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #7ABFF0;
+  opacity: 0.5;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -72,10 +111,10 @@ body {
   background-color: cadetblue;
 }
 
-.heading-block {
-  position: absolute;
+.d1 {
+  position: relative;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
   background-position: top;
   display: -webkit-box;
@@ -98,14 +137,14 @@ body {
 }
 
 @media (min-width: 600px) {
-  .heading-block {
+  .d1 {
     font-size: 6rem;
     letter-spacing: 1.8rem;
   }
 }
 
 @media (min-width: 900px) {
-  .heading-block {
+  .d1 {
     font-size: 10rem;
     letter-spacing: 2.2rem;
   }
@@ -113,9 +152,8 @@ body {
 
 #explore {
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   background-size: cover;
-  background-position: top;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,5 +169,21 @@ body {
           justify-content: center;
   margin: 0;
   background-image: url(../media/Shang.jpg);
+  -webkit-clip-path: polygon(0 7%, 100% 13%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 7%, 100% 13%, 100% 100%, 0% 100%);
+}
+
+@media (min-width: 600px) {
+  #explore {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  #explore {
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
