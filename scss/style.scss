@@ -1,6 +1,7 @@
 @import "_hovers.scss";
 @import "_animations.scss";
 @import "_d1.scss";
+@import "_d2.scss";
 @import "_medq.scss";
 
 @include tablet{}
@@ -44,7 +45,20 @@ body{
 #explore{
   width: 100vw;
   height: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
   background-image: url(../media/Shang.jpg);
+  @include tablet {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+  @include laptop {
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
+  }
 }
 
 
