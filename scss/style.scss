@@ -19,7 +19,7 @@ body{
 
 .heading-block{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background-size: cover;
     background-position: top;
@@ -29,15 +29,23 @@ body{
     justify-content: center;
     margin: 0;
     background-image: url(../media/Nightview.jpeg);
-
-
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+    
     @include tablet {
-        font-size: 6rem;
-        letter-spacing: 1.8rem;
-      }
-      @include laptop {
-        font-size: 10rem;
-        letter-spacing: 2.2rem;
-      }
-clip-path: polygon(0 0, 100% 0, 100% 81%, 0 90%);
+      font-size: 6rem;
+      letter-spacing: 1.8rem;
+    }
+    @include laptop {
+      font-size: 10rem;
+      letter-spacing: 2.2rem;
+    }
 }
+
+#explore{
+  width: 100vw;
+  height: 100vw;
+  background-image: url(../media/Shang.jpg);
+}
+
+
+

@@ -3,17 +3,17 @@ $desktop: 1100px;
 $laptop: 900px;  
 
 
-    @mixin desktop {
+@mixin desktop {
     @media(min-width: #{$desktop}) {
       @content;
     }
   }
-  @mixin laptop {
+@mixin laptop {
     @media(min-width: #{$laptop}) {
       @content;
     }
   }
-  @mixin tablet {
+@mixin tablet {
     @media(min-width: #{$tablet}) {
       @content;
     }

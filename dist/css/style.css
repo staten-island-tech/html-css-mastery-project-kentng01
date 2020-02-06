@@ -74,7 +74,7 @@ body {
 
 .heading-block {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-size: cover;
   background-position: top;
@@ -93,8 +93,8 @@ body {
           justify-content: center;
   margin: 0;
   background-image: url(../media/Nightview.jpeg);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 81%, 0 90%);
-          clip-path: polygon(0 0, 100% 0, 100% 81%, 0 90%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+          clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
 }
 
 @media (min-width: 600px) {
@@ -109,5 +109,11 @@ body {
     font-size: 10rem;
     letter-spacing: 2.2rem;
   }
+}
+
+#explore {
+  width: 100vw;
+  height: 100vw;
+  background-image: url(../media/Shang.jpg);
 }
 /*# sourceMappingURL=style.css.map */
