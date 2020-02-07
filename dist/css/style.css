@@ -75,28 +75,70 @@
 }
 
 .extitle {
-  position: relative;
-  width: 1041px;
-  height: 200px;
-  left: 199px;
-  top: 64px;
-  font-family: SeoulHangang CB;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 90px;
-  line-height: 90px;
+  text-align: center;
+  font-size: 10vh;
+  font-family: 'Bree Serif', serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #7ABFF0;
+}
+
+.flex-parent {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  color: #000000;
-  border: 1px solid #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background: #7ABFF0;
-  opacity: 0.5;
+  -o-border-image: fill;
+     border-image: fill;
+}
+
+@media (min-width: 600px) {
+  .flex-parent {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .flex-parent {
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
+  }
+}
+
+.flex-child {
+  height: 40vh;
+  background-color: #ECEFF1;
+  margin: 10px;
+  width: 33.3%;
+  font-size: 500%;
+  -o-border-image: fill;
+     border-image: fill;
+}
+
+#flex-child {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33.3%;
+}
+
+#flex-grow2 {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  width: 33.3%;
+  font-size: 100%;
 }
 
 html {
@@ -111,7 +153,7 @@ body {
   background-color: cadetblue;
 }
 
-.d1 {
+.hello {
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -137,14 +179,14 @@ body {
 }
 
 @media (min-width: 600px) {
-  .d1 {
+  .hello {
     font-size: 6rem;
     letter-spacing: 1.8rem;
   }
 }
 
 @media (min-width: 900px) {
-  .d1 {
+  .hello {
     font-size: 10rem;
     letter-spacing: 2.2rem;
   }
@@ -169,8 +211,6 @@ body {
           justify-content: center;
   margin: 0;
   background-image: url(../media/Shang.jpg);
-  -webkit-clip-path: polygon(0 7%, 100% 13%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 7%, 100% 13%, 100% 100%, 0% 100%);
 }
 
 @media (min-width: 600px) {

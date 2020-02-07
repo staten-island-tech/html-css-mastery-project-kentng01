@@ -18,7 +18,7 @@ body{
   background-color: cadetblue;
 }
 
-.d1{
+.hello{
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -52,7 +52,6 @@ body{
   justify-content: center;
   margin: 0;
   background-image: url(../media/Shang.jpg);
-  clip-path: polygon(0 7%, 100% 13%, 100% 100%, 0% 100%);
   @include tablet {
     font-size: 6rem;
     letter-spacing: 1.8rem;
