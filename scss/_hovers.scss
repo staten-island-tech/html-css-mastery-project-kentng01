@@ -2,3 +2,44 @@
     transform: scale(1.3);
     transition: all 1.0s;
 }
+
+.extitle:hover{
+    transform: scale(1.1);
+    transition: all 1.0s;
+}
+
+.garden{
+    transition: all 1.0s;
+    height: 30rem;
+    filter: grayscale(100);
+    border-radius: 5rem;
+}
+
+.garden:hover{
+    transform: scale(1.3);
+    filter: grayscale(0);
+}
+
+.road{
+    transition: all 1.0s;
+    height: 30rem;
+    filter: grayscale(100);
+    border-radius: 5rem;
+}
+
+.road:hover{
+    transform: scale(1.3);
+    filter: grayscale(0);
+}
+
+.tower{
+    transition: all 1.0s;
+    height: 30rem;
+    filter: grayscale(100);
+    border-radius: 5rem;
+}
+
+.tower:hover{
+    transform: scale(1.3);
+    filter: grayscale(0);
+}
