@@ -100,7 +100,7 @@
   font-family: Shojumaru;
   font-style: normal;
   font-weight: normal;
-  font-size: 90px;
+  font-size: 5rem;
   line-height: 119px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,7 +117,7 @@
 
 @media (min-width: 600px) {
   .sha {
-    font-size: 6rem;
+    font-size: 2rem;
     letter-spacing: 1.8rem;
   }
 }
@@ -170,30 +170,33 @@
 }
 
 .yu {
-  height: 40vh;
-  background-color: #ECEFF1;
   margin: 10px;
   width: 40rem;
   -o-border-image: fill;
      border-image: fill;
+  padding: 7rem;
 }
 
-.pearl {
+.nanjing {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  width: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 7rem;
+}
+
+.pearl {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 40rem;
-}
-
-.nanjing {
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
-  width: 33.3%;
-  font-size: 40rem;
+  padding: 7rem;
 }
 
 html {
