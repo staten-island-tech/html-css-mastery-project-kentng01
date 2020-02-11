@@ -95,7 +95,7 @@
 
 .sha {
   position: absolute;
-  width: 701px;
+  width: 761px;
   height: 153px;
   font-family: Shojumaru;
   font-style: normal;
@@ -208,7 +208,7 @@ html {
 }
 
 body {
-  background-color: cadetblue;
+  background-color: black;
 }
 
 .hello {
@@ -232,8 +232,8 @@ body {
           justify-content: center;
   margin: 0;
   background-image: url(../media/Nightview.jpeg);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
-          clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
 }
 
 @media (min-width: 600px) {
@@ -268,7 +268,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
-  background-image: url(../media/Shang.jpg);
+  background-image: url(../media/Night.jpg);
 }
 
 @media (min-width: 600px) {

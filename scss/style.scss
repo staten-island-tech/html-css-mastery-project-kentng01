@@ -15,7 +15,7 @@ html{
 }
 
 body{
-  background-color: cadetblue;
+  background-color: black;
 }
 
 .hello{
@@ -30,7 +30,7 @@ body{
     justify-content: center;
     margin: 0;
     background-image: url(../media/Nightview.jpeg);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
     
     @include tablet {
       font-size: 6rem;
@@ -51,7 +51,7 @@ body{
   align-items: center;
   justify-content: center;
   margin: 0;
-  background-image: url(../media/Shang.jpg);
+  background-image: url(../media/Night.jpg);
   @include tablet {
     font-size: 6rem;
     letter-spacing: 1.8rem;
