@@ -30,7 +30,7 @@ body{
     justify-content: center;
     margin: 0;
     background-image: url(../media/Nightview.jpeg);
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 90%);
     
     @include tablet {
       font-size: 6rem;

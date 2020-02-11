@@ -232,8 +232,8 @@ body {
           justify-content: center;
   margin: 0;
   background-image: url(../media/Nightview.jpeg);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
-          clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 90%);
+          clip-path: polygon(0 0, 100% 0, 100% 85%, 0 90%);
 }
 
 @media (min-width: 600px) {
