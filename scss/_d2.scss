@@ -32,19 +32,62 @@
     padding: 7rem;
 }
 
+.yugarden{
+    position: relative;
+    font-size: 5rem;
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 6rem;
+    @include laptop{
+        font-size: 2rem;    
+    }
+    @include tablet{
+        font-size: 2rem;
+    }
+}  
+
 .nanjing{
-    flex-grow: 1;
+    flex-grow: 2;
     width: 40rem;
     display: flex;
     padding: 7rem;
+    flex-direction: column;
 }
+
+.nanjingroad{
+    position: relative;
+    font-size: 5rem;
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 6rem;
+    @include laptop{
+        font-size: 2rem;    
+    }
+    @include tablet{
+        font-size: 2rem;
+    }
+}  
 
 
 .pearl{
-    flex-grow: 2;
+    flex-grow: 1;
     display: flex;
     width: 40rem;
     padding: 7rem;
+    flex-direction: column;
 }
+.pearltower{
+    position: relative;
+    font-size: 5rem;
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 6rem;
+    @include laptop{
+        font-size: 2rem;    
+    }
+    @include tablet{
+        font-size: 2rem;
+    }
+}  
 
 
