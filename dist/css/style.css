@@ -183,6 +183,7 @@
   background-color: white;
   font-family: 'Permanent Marker', cursive;
   margin-top: 6rem;
+  text-align: center;
 }
 
 @media (min-width: 900px) {
@@ -218,6 +219,7 @@
   background-color: white;
   font-family: 'Permanent Marker', cursive;
   margin-top: 6rem;
+  text-align: center;
 }
 
 @media (min-width: 900px) {
@@ -253,6 +255,7 @@
   background-color: white;
   font-family: 'Permanent Marker', cursive;
   margin-top: 6rem;
+  text-align: center;
 }
 
 @media (min-width: 900px) {
