@@ -28,20 +28,13 @@
           filter: grayscale(0);
 }
 
-.road {
-  -webkit-transition: all 1.0s;
-  transition: all 1.0s;
-  height: 30rem;
-  -webkit-filter: grayscale(100);
-          filter: grayscale(100);
-  border-radius: 5rem;
+.nanjing:hover > .road {
+  opacity: 0.3;
 }
 
-.road:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
+.nanjing:hover > .word {
+  opacity: 1;
+  display: inline-block;
 }
 
 .tower {
