@@ -6,6 +6,7 @@
 }
 
 .extitle:hover {
+  background-color: yellow;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: all 1.0s;
@@ -61,8 +62,8 @@
 }
 
 .sha {
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-name: hi;
           animation-name: hi;
 }
@@ -70,26 +71,18 @@
 @-webkit-keyframes hi {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
   }
   to {
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
   }
 }
 
 @keyframes hi {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
   }
   to {
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
   }
 }
 
@@ -100,7 +93,7 @@
   font-family: Shojumaru;
   font-style: normal;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 119px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -113,6 +106,7 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
+  margin-bottom: auto;
 }
 
 @media (min-width: 600px) {

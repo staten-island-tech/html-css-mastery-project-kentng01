@@ -1,16 +1,14 @@
 .sha {
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-name: hi;
 }
 
 @keyframes hi {
   from {
     opacity: 0;
-    transform: translate3d(0, -100%, 0);
   }
 
   to {
     opacity: 1;
-    transform: translate3d(0, 0, 0);
   }
 }
