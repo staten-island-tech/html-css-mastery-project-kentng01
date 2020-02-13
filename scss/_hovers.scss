@@ -30,14 +30,6 @@
 .road:hover{
     transform: scale(1.3);
     filter: grayscale(0);
-
-
-.nanjing:hover > .road{
-    opacity: 0.3;
-}
-.nanjing:hover > .word{
-    opacity: 1;
-    display: inline-block;;
 }
 
 .tower{
