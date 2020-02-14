@@ -75,7 +75,7 @@ body{
   justify-content: center;
   margin: 0;
   background-image: url(../media/Restaurant.jpg);
-  clip-path: polygon(0 6%, 100% 3%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 9%, 100% 6%, 100% 100%, 0% 100%);
   @include tablet {
     font-size: 6rem;
     letter-spacing: 1.8rem;

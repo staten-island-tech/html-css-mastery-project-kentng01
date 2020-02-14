@@ -142,7 +142,7 @@
 .corona {
   border-radius: 1rem;
   position: relative;
-  font-size: 5rem;
+  font-size: 1rem;
   background-color: white;
   font-family: 'Permanent Marker', cursive;
   margin-top: 20rem;
@@ -412,8 +412,8 @@ body {
           justify-content: center;
   margin: 0;
   background-image: url(../media/Restaurant.jpg);
-  -webkit-clip-path: polygon(0 6%, 100% 3%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 6%, 100% 3%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 9%, 100% 6%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 6%, 100% 100%, 0% 100%);
 }
 
 @media (min-width: 600px) {
