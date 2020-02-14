@@ -25,6 +25,23 @@
         font-size: 10rem;
         letter-spacing: 2.2rem;
       }
-    
 }
+
+.corona{
+  border-radius: 1rem;
+  position: relative;
+  font-size: 5rem;
+  background-color: white;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 20rem;
+  text-align: center;
+  @include laptop{
+      font-size: 2rem;    
+  }
+  @include tablet{
+      font-size: 2rem;
+  }
+}  
+
+
 

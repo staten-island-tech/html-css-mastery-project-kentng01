@@ -1,4 +1,19 @@
 .sha {
+  animation-duration: 3s;
+  animation-name: hi;
+}
+
+@keyframes hi {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.corona {
   animation-duration: 5s;
   animation-name: hi;
 }
