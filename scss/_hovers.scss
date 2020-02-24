@@ -64,7 +64,7 @@
  }
 
  .bao {
-    top: 13rem;
+    top: 15rem;
     left: 0;
     height: 25vh;
     width: 45vh;
@@ -72,13 +72,13 @@
  }
 
  .fish{
-     top: 40rem;
-     right: -30rem;
+     top: 35rem;
+     right: -15rem;
      height: 25vh;
      width: 45vh;
  }
 
- .dinner{
+ .dimsum{
      top: 4rem;
      left: 65%;
      height: 25vh;
@@ -93,6 +93,6 @@
  }
  
  .gallery:hover .gang:not(:hover){
-     transform: scale(0.5);
-     opacity: 0.3;    
+     transform: scale(0.5);  
+     opacity: 0.3;
 }

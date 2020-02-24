@@ -79,20 +79,20 @@
 }
 
 .bao {
-  top: 13rem;
+  top: 15rem;
   left: 0;
   height: 25vh;
   width: 45vh;
 }
 
 .fish {
-  top: 40rem;
-  right: -30rem;
+  top: 35rem;
+  right: -15rem;
   height: 25vh;
   width: 45vh;
 }
 
-.dinner {
+.dimsum {
   top: 4rem;
   left: 65%;
   height: 25vh;
@@ -360,12 +360,12 @@
 
 .food {
   height: 40vh;
-  background-color: #ECEFF1;
   margin: 10px;
   width: 33.3%;
   font-size: 500%;
   -o-border-image: fill;
      border-image: fill;
+  margin-top: -20rem;
 }
 
 #food {
@@ -397,17 +397,31 @@
           flex-direction: column;
   padding: 3rem;
   margin: 2rem;
-  border: 7px solid #263238;
   border-radius: 15px;
   text-align: center;
   color: darkblue;
+  border: 7px solid #263238;
   font-size: 3rem;
   font-family: 'Righteous';
   text-transform: uppercase;
+  width: 45vw;
 }
 
 .food2 {
   color: darkcyan;
+  text-transform: initial;
+}
+
+.bao {
+  border: 4px solid whitesmoke;
+}
+
+.fish {
+  border: 4px solid whitesmoke;
+}
+
+.dimsum {
+  border: 4px solid whitesmoke;
 }
 
 html {
@@ -512,6 +526,8 @@ body {
           align-items: center;
   background-size: cover;
   background-image: url(../media/Restaurant.jpg);
+  -webkit-clip-path: polygon(0 9%, 100% 4%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 4%, 100% 100%, 0% 100%);
 }
 
 @media (min-width: 600px) {
