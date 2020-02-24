@@ -1,0 +1,40 @@
+.food{
+    height: 40vh;
+    background-color: #ECEFF1;
+    margin: 10px;
+    width: 33.3%;
+    font-size: 500%;
+    border-image: fill;
+}
+
+#food{
+    flex-grow: 1;
+    display: flex;
+    width: 33.3%;
+
+}
+
+#food2{
+    flex-grow: 2;
+    width: 33.3%;
+    font-size: 100%;
+}
+
+.restaurant2{
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    margin: 2rem;
+    border: 7px solid #263238;
+    border-radius: 15px;
+    text-align: center;
+    color: darkblue;
+    font-size: 3rem;
+    font-family: 'Righteous';
+    text-transform: uppercase;
+}
+
+.food2{
+    color: darkcyan;
+}

@@ -44,3 +44,55 @@
     transform: scale(1.3);
     filter: grayscale(0);
 }
+
+.gallery-parent {
+    //text-align: center;
+    margin: 0 auto;
+    //width: 60rem;
+    height: 60rem;
+    width: 40rem;
+}
+
+.gallery {
+    position: relative;
+ }
+
+.gang {
+    height: 30rem;
+    position: absolute;
+    transform: all 0.3s;
+ }
+
+ .bao {
+    top: 13rem;
+    left: 0;
+    height: 25vh;
+    width: 45vh;
+    
+ }
+
+ .fish{
+     top: 40rem;
+     right: -30rem;
+     height: 25vh;
+     width: 45vh;
+ }
+
+ .dinner{
+     top: 4rem;
+     left: 65%;
+     height: 25vh;
+     width: 45vh;
+ }
+
+ .gang:hover{
+     transform: scale(1.3);
+     outline: 1rem solid #222;
+     z-index: 2;
+     transition: 2.0s;
+ }
+ 
+ .gallery:hover .gang:not(:hover){
+     transform: scale(0.5);
+     opacity: 0.3;    
+}
