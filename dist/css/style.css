@@ -220,7 +220,7 @@
   font-family: 'Bree Serif', serif;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: #7ABFF0;
-  margin-top: 6rem;
+  margin-top: 14rem;
 }
 
 .sites {
@@ -424,6 +424,152 @@
   border: 4px solid whitesmoke;
 }
 
+.culttitle {
+  text-align: center;
+  font-size: 8vh;
+  font-family: 'Bree Serif', serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 14rem;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  color: whitesmoke;
+}
+
+.facts {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-border-image: fill;
+     border-image: fill;
+}
+
+@media (min-width: 600px) {
+  .facts {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .facts {
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
+  }
+}
+
+.yu {
+  margin: 10px;
+  width: 40rem;
+  -o-border-image: fill;
+     border-image: fill;
+  padding: 7rem;
+}
+
+.yugarden {
+  position: relative;
+  font-size: 5rem;
+  background-color: #263238;
+  color: #18FFFF;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .yugarden {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .yugarden {
+    font-size: 2rem;
+  }
+}
+
+.nanjing {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  width: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 7rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nanjingroad {
+  position: relative;
+  font-size: 5rem;
+  background-color: #263238;
+  color: #18FFFF;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .nanjingroad {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .nanjingroad {
+    font-size: 2rem;
+  }
+}
+
+.pearl {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40rem;
+  padding: 7rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pearltower {
+  position: relative;
+  font-size: 5rem;
+  background-color: #263238;
+  color: #18FFFF;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .pearltower {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .pearltower {
+    font-size: 2rem;
+  }
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -437,9 +583,9 @@ body {
 }
 
 .hello {
+  width: 375px;
+  height: 812px;
   position: relative;
-  width: 100vw;
-  height: 100vh;
   background-size: cover;
   background-position: top;
   display: -webkit-box;
@@ -470,14 +616,16 @@ body {
 
 @media (min-width: 900px) {
   .hello {
+    width: 100vw;
+    height: 100vh;
     font-size: 10rem;
     letter-spacing: 2.2rem;
   }
 }
 
 #explore {
-  width: 100vw;
-  height: 100vh;
+  width: 375px;
+  height: 812px;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -505,14 +653,16 @@ body {
 
 @media (min-width: 900px) {
   #explore {
+    width: 100vw;
+    height: 100vh;
     font-size: 10rem;
     letter-spacing: 2.2rem;
   }
 }
 
 .restaurant {
-  width: 100vw;
-  height: 100vh;
+  width: 375px;
+  height: 812px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -526,8 +676,8 @@ body {
           align-items: center;
   background-size: cover;
   background-image: url(../media/Restaurant.jpg);
-  -webkit-clip-path: polygon(0 9%, 100% 4%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 9%, 100% 4%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 9%, 100% 5%, 100% 97%, 0 95%);
+          clip-path: polygon(0 9%, 100% 5%, 100% 97%, 0 95%);
 }
 
 @media (min-width: 600px) {
@@ -540,7 +690,46 @@ body {
 @media (min-width: 900px) {
   .restaurant {
     font-size: 10rem;
+    width: 100vw;
+    height: 100vh;
     letter-spacing: 0;
+  }
+}
+
+#adventure {
+  width: 375px;
+  height: 812px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  background-image: url(../media/ShangCult.jpg);
+}
+
+@media (min-width: 600px) {
+  #adventure {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  #adventure {
+    width: 100vw;
+    height: 100vh;
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

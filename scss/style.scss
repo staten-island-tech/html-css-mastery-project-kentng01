@@ -3,6 +3,7 @@
 @import "_d1.scss";
 @import "_d2.scss";
 @import "_d3.scss";
+@import "_d4.scss";
 @import "_medq.scss";
 
 @include tablet{}
@@ -20,9 +21,9 @@ body{
 }
 
 .hello{
+    width: 375px;
+    height: 812px;
     position: relative;
-    width: 100vw;
-    height: 100vh;
     background-size: cover;
     background-position: top;
     display: flex;
@@ -38,14 +39,16 @@ body{
       letter-spacing: 1.8rem;
     }
     @include laptop {
+      width: 100vw;
+      height: 100vh;
       font-size: 10rem;
       letter-spacing: 2.2rem;
     }
 }
 
 #explore{
-  width: 100vw;
-  height: 100vh;
+  width: 375px;
+  height: 812px;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -58,28 +61,53 @@ body{
     letter-spacing: 1.8rem;
   }
   @include laptop {
+    width: 100vw;
+    height: 100vh;
     font-size: 10rem;
     letter-spacing: 2.2rem;
   }
 }
 
 .restaurant{
-  width: 100vw;
-  height: 100vh;
+  width: 375px;
+  height: 812px;
   display: flex;
   flex-direction: row;
   text-align: center ;
   align-items: center;
   background-size: cover;
   background-image: url(../media/Restaurant.jpg);
-  clip-path: polygon(0 9%, 100% 4%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 9%, 100% 5%, 100% 97%, 0 95%);
   @include tablet {
     font-size: 6rem;
     letter-spacing: 1.8rem;
   }
   @include laptop {
     font-size: 10rem;
+    width: 100vw;
+    height: 100vh;
     letter-spacing: 0;
   }
 }
 
+#adventure{
+  width: 375px;
+  height: 812px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-image: url(../media/ShangCult.jpg);
+  @include tablet {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+  @include laptop {
+    width: 100vw;
+    height: 100vh;
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
+  }
+}
