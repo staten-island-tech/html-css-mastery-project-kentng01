@@ -114,6 +114,19 @@
   opacity: 0.3;
 }
 
+.word2 {
+  font-size: 2rem;
+}
+
+.fact1:hover > .tags {
+  opacity: 0.3;
+}
+
+.fact1:hover > .word-2 {
+  opacity: 1;
+  display: incline-block;
+}
+
 .sha {
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
@@ -466,108 +479,44 @@
   }
 }
 
-.yu {
+.fact1 {
   margin: 10px;
   width: 40rem;
   -o-border-image: fill;
      border-image: fill;
-  padding: 7rem;
+  padding: 15rem;
 }
 
-.yugarden {
-  position: relative;
-  font-size: 5rem;
-  background-color: #263238;
-  color: #18FFFF;
-  font-family: 'Permanent Marker', cursive;
-  margin-top: 6rem;
-  text-align: center;
+.word-2 {
+  position: absolute;
 }
 
-@media (min-width: 900px) {
-  .yugarden {
-    font-size: 2rem;
-  }
-}
-
-@media (min-width: 600px) {
-  .yugarden {
-    font-size: 2rem;
-  }
-}
-
-.nanjing {
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
+.fact2 {
   width: 40rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 7rem;
+  padding: 15rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: relative;
+          flex-direction: relative;
 }
 
-.nanjingroad {
-  position: relative;
-  font-size: 5rem;
-  background-color: #263238;
-  color: #18FFFF;
-  font-family: 'Permanent Marker', cursive;
-  margin-top: 6rem;
-  text-align: center;
-}
-
-@media (min-width: 900px) {
-  .nanjingroad {
-    font-size: 2rem;
-  }
-}
-
-@media (min-width: 600px) {
-  .nanjingroad {
-    font-size: 2rem;
-  }
-}
-
-.pearl {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+.trial1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 40rem;
-  padding: 7rem;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.pearltower {
-  position: relative;
-  font-size: 5rem;
-  background-color: #263238;
-  color: #18FFFF;
-  font-family: 'Permanent Marker', cursive;
-  margin-top: 6rem;
+      -ms-flex-direction: row;
+          flex-direction: row;
   text-align: center;
-}
-
-@media (min-width: 900px) {
-  .pearltower {
-    font-size: 2rem;
-  }
-}
-
-@media (min-width: 600px) {
-  .pearltower {
-    font-size: 2rem;
-  }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-border-image: fill;
+     border-image: fill;
 }
 
 html {
@@ -715,6 +664,8 @@ body {
           justify-content: center;
   margin: 0;
   background-image: url(../media/ShangCult.jpg);
+  -webkit-clip-path: polygon(0 9%, 100% 6%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 6%, 100% 100%, 0% 100%);
 }
 
 @media (min-width: 600px) {

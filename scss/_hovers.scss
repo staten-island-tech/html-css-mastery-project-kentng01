@@ -96,3 +96,15 @@
      transform: scale(0.5);  
      opacity: 0.3;
 }
+
+.word2{
+    font-size: 2rem;
+}
+
+.fact1:hover > .tags{
+    opacity: 0.3;
+}
+.fact1:hover > .word-2{
+    opacity: 1;
+    display: incline-block;
+}

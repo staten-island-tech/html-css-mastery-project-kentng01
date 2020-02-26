@@ -26,73 +26,28 @@
       }
 }
 
-.yu{
+.fact1{
     margin: 10px;
     width: 40rem;
     border-image: fill;
-    padding: 7rem;
+    padding: 15rem;
 }
 
-.yugarden{
-    position: relative;
-    font-size: 5rem;
-    background-color: #263238;
-    color: #18FFFF;
-    font-family: 'Permanent Marker', cursive;
-    margin-top: 6rem;
-    text-align: center;
-    @include laptop{
-        font-size: 2rem;    
-    }
-    @include tablet{
-        font-size: 2rem;
-    }
-}  
+.word-2{
+    position: absolute;
+}
 
-.nanjing{
-    flex-grow: 2;
+.fact2{
     width: 40rem;
     display: flex;
-    padding: 7rem;
-    flex-direction: column;
+    padding: 15rem;
+    flex-direction: relative;   
 }
 
-.nanjingroad{
-    position: relative;
-    font-size: 5rem;
-    background-color: #263238;
-    color: #18FFFF;
-    font-family: 'Permanent Marker', cursive;
-    margin-top: 6rem;
-    text-align: center;
-    @include laptop{
-        font-size: 2rem;    
-    }
-    @include tablet{
-        font-size: 2rem;
-    }
-}  
-
-
-.pearl{
-    flex-grow: 1;
+.trial1{
     display: flex;
-    width: 40rem;
-    padding: 7rem;
-    flex-direction: column;
-}
-.pearltower{
-    position: relative;
-    font-size: 5rem;
-    background-color: #263238;
-    color: #18FFFF;
-    font-family: 'Permanent Marker', cursive;
-    margin-top: 6rem;
+    flex-direction: row;
     text-align: center;
-    @include laptop{
-        font-size: 2rem;    
-    }
-    @include tablet{
-        font-size: 2rem;
-    }
-}  
+    align-items: center;
+    border-image: fill;
+}
