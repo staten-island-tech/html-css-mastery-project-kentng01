@@ -114,15 +114,24 @@
   opacity: 0.3;
 }
 
-.word2 {
-  font-size: 2rem;
-}
-
 .fact1:hover > .tags {
-  opacity: 0.3;
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
-.fact1:hover > .word-2 {
+.fact1:hover > .word {
+  opacity: 1;
+  display: incline-block;
+}
+
+.fact2:hover > .rock {
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.fact2:hover > .word-2 {
   opacity: 1;
   display: incline-block;
 }
@@ -475,7 +484,7 @@
 @media (min-width: 900px) {
   .facts {
     font-size: 10rem;
-    letter-spacing: 2.2rem;
+    letter-spacing: 1rem;
   }
 }
 
@@ -485,10 +494,38 @@
   -o-border-image: fill;
      border-image: fill;
   padding: 15rem;
+  background: rgba(196, 196, 196, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.word {
+  position: absolute;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Shojumaru';
+  width: 380px;
+  margin-top: 4rem;
 }
 
 .word-2 {
   position: absolute;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Shojumaru';
+  width: 380px;
+  margin-top: 4rem;
 }
 
 .fact2 {
@@ -501,6 +538,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: relative;
           flex-direction: relative;
+  background: rgba(196, 196, 196, 0.7);
 }
 
 .trial1 {
@@ -517,6 +555,34 @@
           align-items: center;
   -o-border-image: fill;
      border-image: fill;
+}
+
+.trial2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-border-image: fill;
+     border-image: fill;
+}
+
+.tags {
+  z-index: 1;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.rock {
+  z-index: 1;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 html {

@@ -97,14 +97,20 @@
      opacity: 0.3;
 }
 
-.word2{
-    font-size: 2rem;
+.fact1:hover > .tags{
+    opacity: 0;
+    transition: 1.5s;
+}
+.fact1:hover > .word{
+    opacity: 1;
+    display: incline-block;
 }
 
-.fact1:hover > .tags{
-    opacity: 0.3;
+.fact2:hover > .rock{
+    opacity: 0;
+    transition: 1.5s;
 }
-.fact1:hover > .word-2{
+.fact2:hover > .word-2{
     opacity: 1;
     display: incline-block;
 }
