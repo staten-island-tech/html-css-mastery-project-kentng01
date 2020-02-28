@@ -1,0 +1,44 @@
+.food{
+    height: 40vh;
+    margin: 10px;
+    width: 33.3%;
+    font-size: 500%;
+    border-image: fill;
+    margin-top: -20rem;
+}
+
+.black{
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+    width: 569px;
+    height: 375px;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.trip{
+    flex-grow: 2;
+    width: 33.3%;
+    font-size: 100%;
+}
+
+.trip{
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    margin: 2rem;
+    text-align: center;
+    color: darkblue;
+    font-size: 3rem;
+    font-family: 'Righteous';
+    text-transform: uppercase;
+    width: 45vw;
+}
+
+.plane{
+    z-index: 1;
+    position: absolute;
+    align-items: center;
+
+}

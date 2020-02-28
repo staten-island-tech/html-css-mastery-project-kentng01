@@ -136,6 +136,13 @@
   display: incline-block;
 }
 
+.culttitle:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
 .sha {
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
@@ -585,6 +592,64 @@
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
+.food {
+  height: 40vh;
+  margin: 10px;
+  width: 33.3%;
+  font-size: 500%;
+  -o-border-image: fill;
+     border-image: fill;
+  margin-top: -20rem;
+}
+
+.black {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 569px;
+  height: 375px;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.trip {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  width: 33.3%;
+  font-size: 100%;
+}
+
+.trip {
+  background-color: ghostwhite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3rem;
+  margin: 2rem;
+  text-align: center;
+  color: darkblue;
+  font-size: 3rem;
+  font-family: 'Righteous';
+  text-transform: uppercase;
+  width: 45vw;
+}
+
+.plane {
+  z-index: 1;
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -743,6 +808,45 @@ body {
 
 @media (min-width: 900px) {
   #adventure {
+    width: 100vw;
+    height: 100vh;
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
+  }
+}
+
+.airplane {
+  width: 375px;
+  height: 812px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  background-image: url(../media/Xiamen.jpg);
+  -webkit-clip-path: polygon(50% 12%, 100% 5%, 100% 100%, 0 100%, 0 5%);
+          clip-path: polygon(50% 12%, 100% 5%, 100% 100%, 0 100%, 0 5%);
+}
+
+@media (min-width: 600px) {
+  .airplane {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .airplane {
     width: 100vw;
     height: 100vh;
     font-size: 10rem;
