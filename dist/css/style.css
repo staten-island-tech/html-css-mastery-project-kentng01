@@ -514,7 +514,7 @@
       -ms-flex-align: center;
           align-items: center;
   color: black;
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-family: 'Shojumaru';
   width: 380px;
@@ -528,7 +528,7 @@
       -ms-flex-align: center;
           align-items: center;
   color: black;
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-family: 'Shojumaru';
   width: 380px;
@@ -610,9 +610,11 @@
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  margin: 3rem;
   width: 569px;
   height: 375px;
   background: rgba(0, 0, 0, 0.85);
+  border-radius: 15rem;
 }
 
 .trip {
@@ -633,7 +635,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 3rem;
-  margin: 2rem;
+  margin: 4rem;
   text-align: center;
   color: darkblue;
   font-size: 3rem;
@@ -648,6 +650,119 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.navigation_button {
+  background-color: white;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 6rem;
+  right: 6rem;
+  z-index: 10000;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+  text-align: center;
+  cursor: pointer;
+}
+
+.navigation_icon, .navigation_icon:before, .navigation_icon:after {
+  width: 3rem;
+  height: 2px;
+  background-color: #333;
+  display: inline-block;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.navigation_icon {
+  position: relative;
+  margin-top: 3.5rem;
+}
+
+*, *::before, *::after {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navigation_checkbox:checked + .navigation_button .navigation_icon::after {
+  -webkit-transform: rotate(-495deg);
+          transform: rotate(-495deg);
+  top: 0rem;
+}
+
+.navigation_checkbox:checked + .navigation_button .navigation_icon::after {
+  -webkit-transform: rotate(-495deg);
+          transform: rotate(-495deg);
+  top: 0rem;
+}
+
+*, *::before, *::after {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navigation_icon::before, .navigation_icon::after {
+  content: "";
+}
+
+.navigation_checkbox {
+  display: none;
+}
+
+.navigation_background {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 6.5rem;
+  right: 6.5rem;
+  background-image: radial-gradient(#0e8797, #05556d);
+  z-index: 30;
+  -webkit-transition: .8s;
+  transition: .8s;
+  -webkit-transform: scale(80);
+          transform: scale(80);
+}
+
+.navigation_nav {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  opacity: 0;
+  width: 0%;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: none;
+}
+
+nav {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+.navigation_icon::before {
+  position: absolute;
+  top: -1rem;
+  left: 0;
+}
+
+.navigation_icon::after {
+  position: absolute;
+  top: 1rem;
+  left: 0;
 }
 
 html {
