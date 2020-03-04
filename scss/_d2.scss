@@ -14,7 +14,7 @@
     text-align: center;
     align-items: center;
     border-image: fill;
-
+    
     @include tablet {
         font-size: 6rem;
         letter-spacing: 1.8rem;
@@ -26,10 +26,10 @@
 }
 
 .yu{
-    margin: 10px;
     width: 40rem;
     border-image: fill;
-    padding: 7rem;
+    text-align: center;
+    align-items: center;
 }
 
 .yugarden{
@@ -40,6 +40,7 @@
     font-family: 'Permanent Marker', cursive;
     margin-top: 6rem;
     text-align: center;
+    align-items: center;
     @include laptop{
         font-size: 2rem;    
     }
@@ -52,7 +53,6 @@
     flex-grow: 2;
     width: 40rem;
     display: flex;
-    padding: 7rem;
     flex-direction: column;
 }
 
@@ -77,7 +77,6 @@
     flex-grow: 1;
     display: flex;
     width: 40rem;
-    padding: 7rem;
     flex-direction: column;
 }
 .pearltower{
