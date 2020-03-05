@@ -143,6 +143,13 @@
   transition: all 1.5s;
 }
 
+.plane:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
 .sha {
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
@@ -285,6 +292,7 @@
 
 .yu {
   width: 40rem;
+  margin: 4rem;
   -o-border-image: fill;
      border-image: fill;
   text-align: center;
@@ -322,6 +330,7 @@
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
+  margin: 4rem;
   width: 40rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,6 +370,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 4rem;
   width: 40rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -626,12 +636,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
+  position: absolute;
   margin: 3rem;
   width: 569px;
   height: 375px;
   background: rgba(0, 0, 0, 0.85);
   border-radius: 15rem;
+  margin-top: -10rem;
 }
 
 .trip {
@@ -659,14 +670,19 @@
   font-family: 'Righteous';
   text-transform: uppercase;
   width: 45vw;
+  margin-top: 60rem;
 }
 
 .plane {
   z-index: 1;
-  position: absolute;
+  width: 579px;
+  height: 375px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .navigation_button {
@@ -745,8 +761,8 @@
   right: 6.5rem;
   background-image: radial-gradient(#0e8797, #05556d);
   z-index: 30;
-  -webkit-transition: .8s;
-  transition: .8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .navigation_checkbox:checked ~ .navigation_background {

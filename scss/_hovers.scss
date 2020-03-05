@@ -119,3 +119,8 @@
     transform: scale(1.1);
     transition: all 1.5s;
 }
+
+.plane:hover{
+        transform: scale(4.0);
+        transition: all 1.0s;
+}

@@ -27,6 +27,7 @@
 
 .yu{
     width: 40rem;
+    margin: 4rem;
     border-image: fill;
     text-align: center;
     align-items: center;
@@ -51,6 +52,7 @@
 
 .nanjing{
     flex-grow: 2;
+    margin: 4rem;
     width: 40rem;
     display: flex;
     flex-direction: column;
@@ -76,6 +78,7 @@
 .pearl{
     flex-grow: 1;
     display: flex;
+    margin: 4rem;
     width: 40rem;
     flex-direction: column;
 }

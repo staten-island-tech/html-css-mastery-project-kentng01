@@ -10,12 +10,13 @@
 .black{
     flex-grow: 1;
     display: flex;
-    position: relative;
+    position: absolute;
     margin: 3rem;
     width: 569px;
     height: 375px;
     background: rgba(0, 0, 0, 0.85);
     border-radius: 15rem;
+    margin-top: -10rem;
 }
 
 .trip{
@@ -36,11 +37,13 @@
     font-family: 'Righteous';
     text-transform: uppercase;
     width: 45vw;
+    margin-top: 60rem;
 }
 
 .plane{
     z-index: 1;
-    position: absolute;
+    width: 579px;
+    height: 375px;
     align-items: center;
-
+    display: flex;
 }
