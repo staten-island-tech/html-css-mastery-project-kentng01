@@ -34,7 +34,7 @@ body{
     justify-content: center;
     margin: 0;
     background-image: url(../media/Nightview.jpeg);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 90%);
+    clip-path: polygon(50% 94%, 96% 85%, 96% 0, 4% 0, 4% 85%);
     
     @include tablet {
       font-size: 6rem;
@@ -58,6 +58,7 @@ body{
   justify-content: center;
   margin: 0;
   background-image: url(../media/Night.jpg);
+  clip-path: polygon(14% 2%, 86% 2%, 98% 10%, 98% 100%, 2% 100%, 2% 10%);
   @include tablet {
     font-size: 6rem;
     letter-spacing: 1.8rem;
@@ -79,7 +80,7 @@ body{
   align-items: center;
   background-size: cover;
   background-image: url(../media/Restaurant.jpg);
-  clip-path: polygon(0 9%, 100% 5%, 100% 97%, 0 95%);
+  clip-path: polygon(50% 90%, 99% 95%, 99% 7%, 1% 7%, 1% 95%);
   @include tablet {
     font-size: 6rem;
     letter-spacing: 1.8rem;

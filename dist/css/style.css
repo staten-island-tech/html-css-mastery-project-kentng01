@@ -144,10 +144,10 @@
 }
 
 .plane:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
 }
 
 .sha {
@@ -523,8 +523,8 @@
 }
 
 .fact1 {
-  margin: 10px;
-  width: 60rem;
+  margin: 5rem;
+  width: 70rem;
   -o-border-image: fill;
      border-image: fill;
   padding: 15rem;
@@ -563,7 +563,7 @@
 }
 
 .fact2 {
-  width: 60rem;
+  width: 70rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -573,6 +573,7 @@
       -ms-flex-direction: relative;
           flex-direction: relative;
   background: rgba(196, 196, 196, 0.7);
+  margin: 5rem;
 }
 
 .trial1 {
@@ -847,6 +848,10 @@ i {
   list-style: none;
   text-align: center;
   width: 100%;
+}
+
+.navigation_list {
+  text-decoration: none;
   color: whitesmoke;
 }
 
@@ -883,8 +888,8 @@ body {
           justify-content: center;
   margin: 0;
   background-image: url(../media/Nightview.jpeg);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 90%);
-          clip-path: polygon(0 0, 100% 0, 100% 85%, 0 90%);
+  -webkit-clip-path: polygon(50% 94%, 96% 85%, 96% 0, 4% 0, 4% 85%);
+          clip-path: polygon(50% 94%, 96% 85%, 96% 0, 4% 0, 4% 85%);
 }
 
 @media (min-width: 600px) {
@@ -922,6 +927,8 @@ body {
           justify-content: center;
   margin: 0;
   background-image: url(../media/Night.jpg);
+  -webkit-clip-path: polygon(14% 2%, 86% 2%, 98% 10%, 98% 100%, 2% 100%, 2% 10%);
+          clip-path: polygon(14% 2%, 86% 2%, 98% 10%, 98% 100%, 2% 100%, 2% 10%);
 }
 
 @media (min-width: 600px) {
@@ -956,8 +963,8 @@ body {
           align-items: center;
   background-size: cover;
   background-image: url(../media/Restaurant.jpg);
-  -webkit-clip-path: polygon(0 9%, 100% 5%, 100% 97%, 0 95%);
-          clip-path: polygon(0 9%, 100% 5%, 100% 97%, 0 95%);
+  -webkit-clip-path: polygon(50% 90%, 99% 95%, 99% 7%, 1% 7%, 1% 95%);
+          clip-path: polygon(50% 90%, 99% 95%, 99% 7%, 1% 7%, 1% 95%);
 }
 
 @media (min-width: 600px) {
