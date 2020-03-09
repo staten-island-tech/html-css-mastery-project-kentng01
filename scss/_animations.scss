@@ -15,10 +15,10 @@
 
 .corona {
   animation-duration: 5s;
-  animation-name: hi;
+  animation-name: no;
 }
 
-@keyframes hi {
+@keyframes no {
   from {
     opacity: 0;
   }
@@ -28,3 +28,17 @@
   }
 }
 
+.navigation_list {
+  animation-duration: 2s;
+  animation-name: eh;
+}
+
+@keyframes eh {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
