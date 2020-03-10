@@ -79,22 +79,22 @@
 }
 
 .bao {
-  top: 15rem;
-  left: -10rem;
+  top: 8rem;
+  left: -16rem;
   height: 25vh;
   width: 45vh;
 }
 
 .fish {
-  top: 35rem;
+  top: 28rem;
   right: -15rem;
   height: 25vh;
   width: 45vh;
 }
 
 .dimsum {
-  top: 4rem;
-  left: 45%;
+  top: -5rem;
+  left: 20%;
   height: 25vh;
   width: 45vh;
 }
@@ -270,6 +270,7 @@
   font-family: 'Permanent Marker', cursive;
   margin-top: 20rem;
   text-align: center;
+  width: 70rem;
 }
 
 @media (min-width: 1100px) {
@@ -278,10 +279,26 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 600px) {
   .corona {
     font-size: 2rem;
+    width: 25rem;
   }
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 5rem;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  margin-top: 1rem;
+  color: yellow;
 }
 
 .extitle {
@@ -291,6 +308,20 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: #7ABFF0;
   margin-top: 14rem;
+}
+
+@media (min-width: 1100px) {
+  .extitle {
+    font-size: 8vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .extitle {
+    width: 305px;
+    height: 175px;
+    font-size: 4rem;
+  }
 }
 
 .sites {
@@ -705,7 +736,7 @@
   font-size: 3rem;
   font-family: 'Righteous';
   text-transform: uppercase;
-  width: 45vw;
+  width: 40vw;
   margin-top: 60rem;
 }
 
@@ -734,6 +765,22 @@
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
   text-align: center;
   cursor: pointer;
+}
+
+@media (min-width: 1100px) {
+  .navigation_button {
+    width: 761px;
+    height: 153px;
+    font-size: 10rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navigation_button {
+    width: 305px;
+    height: 75px;
+    font-size: 5rem;
+  }
 }
 
 .navigation_icon, .navigation_icon:before, .navigation_icon:after {
@@ -898,12 +945,27 @@ body {
   background-color: #263238;
 }
 
+@media (min-width: 1100px) {
+  body {
+    width: 761px;
+    height: 153px;
+    font-size: 10rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 305px;
+    height: 75px;
+    font-size: 5rem;
+  }
+}
+
 .hello {
   width: 375px;
   height: 812px;
   position: relative;
   background-size: cover;
-  background-position: top;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -923,13 +985,9 @@ body {
           clip-path: polygon(50% 94%, 96% 85%, 96% 0, 4% 0, 4% 85%);
   -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-}
-
-@media (min-width: 900px) {
-  .hello {
-    font-size: 6rem;
-    letter-spacing: 1.8rem;
-  }
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 1100px) {
@@ -938,6 +996,12 @@ body {
     height: 100vh;
     font-size: 10rem;
     letter-spacing: 2.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hello {
+    font-size: 5rem;
   }
 }
 
@@ -962,13 +1026,9 @@ body {
   background-image: url(../media/Night.jpg);
   -webkit-clip-path: polygon(14% 2%, 86% 2%, 98% 10%, 98% 100%, 2% 100%, 2% 10%);
           clip-path: polygon(14% 2%, 86% 2%, 98% 10%, 98% 100%, 2% 100%, 2% 10%);
-}
-
-@media (min-width: 900px) {
-  #explore {
-    font-size: 6rem;
-    letter-spacing: 1.8rem;
-  }
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 1100px) {
@@ -977,6 +1037,12 @@ body {
     height: 100vh;
     font-size: 10rem;
     letter-spacing: 2.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #explore {
+    font-size: 5rem;
   }
 }
 
@@ -998,6 +1064,9 @@ body {
   background-image: url(../media/Restaurant.jpg);
   -webkit-clip-path: polygon(50% 90%, 97% 95%, 97% 7%, 3% 7%, 3% 95%);
           clip-path: polygon(50% 90%, 97% 95%, 97% 7%, 3% 7%, 3% 95%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 900px) {
@@ -1037,6 +1106,9 @@ body {
   background-image: url(../media/ShangCult.jpg);
   -webkit-clip-path: polygon(15% 0, 85% 0, 95% 8%, 95% 95%, 95% 95%, 50% 100%, 5% 95%, 5% 8%);
           clip-path: polygon(15% 0, 85% 0, 95% 8%, 95% 95%, 95% 95%, 50% 100%, 5% 95%, 5% 8%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 900px) {
@@ -1076,6 +1148,9 @@ body {
   background-image: url(../media/Xiamen.jpg);
   -webkit-clip-path: polygon(50% 12%, 100% 5%, 100% 100%, 0 100%, 0 5%);
           clip-path: polygon(50% 12%, 100% 5%, 100% 100%, 0 100%, 0 5%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 900px) {

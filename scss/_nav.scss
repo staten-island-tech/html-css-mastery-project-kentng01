@@ -10,6 +10,17 @@
     box-shadow: 0 1rem 3rem rgba(0,0,0,0.5);
     text-align: center;
     cursor: pointer;
+
+    @include desktop {
+        width: 761px;
+        height: 153px;
+        font-size: 10rem;
+      }
+      @include phone {
+          width: 305px;
+          height: 75px;
+          font-size: 5rem;
+        }
 }
 
 .navigation_icon, .navigation_icon:before, .navigation_icon:after {
