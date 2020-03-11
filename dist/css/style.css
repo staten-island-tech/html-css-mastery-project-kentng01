@@ -1027,6 +1027,13 @@ html {
           box-sizing: border-box;
 }
 
+@media (max-width: 600px) {
+  html {
+    width: 305px;
+    height: 75px;
+  }
+}
+
 body {
   background-color: #263238;
 }

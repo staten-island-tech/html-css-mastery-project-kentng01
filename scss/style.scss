@@ -16,6 +16,13 @@ html{
     padding: 0;
     font-size: 62.5%;
     box-sizing: border-box;
+    @include desktop {
+    }
+    @include phone {
+        width: 305px;
+        height: 75px;
+      }
+  
     
 }
 
