@@ -22,6 +22,15 @@
   border-radius: 5rem;
 }
 
+@media (max-width: 600px) {
+  .garden {
+    width: 305px;
+    height: 175px;
+    font-size: 4rem;
+    margin-top: -30px;
+  }
+}
+
 .garden:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
@@ -38,6 +47,15 @@
   border-radius: 5rem;
 }
 
+@media (max-width: 600px) {
+  .road {
+    width: 305px;
+    height: 175px;
+    font-size: 4rem;
+    margin-top: 115px;
+  }
+}
+
 .road:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
@@ -52,6 +70,15 @@
   -webkit-filter: grayscale(100);
           filter: grayscale(100);
   border-radius: 5rem;
+}
+
+@media (max-width: 600px) {
+  .tower {
+    width: 305px;
+    height: 175px;
+    font-size: 4rem;
+    margin-top: -25px;
+  }
 }
 
 .tower:hover {
@@ -281,8 +308,9 @@
 
 @media (max-width: 600px) {
   .corona {
+    width: 250px;
+    height: 30px;
     font-size: 2rem;
-    width: 25rem;
   }
 }
 
@@ -319,8 +347,9 @@
 @media (max-width: 600px) {
   .extitle {
     width: 305px;
-    height: 175px;
+    height: 120px;
     font-size: 4rem;
+    margin-top: -35rem;
   }
 }
 
@@ -341,17 +370,21 @@
      border-image: fill;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
   .sites {
-    font-size: 6rem;
-    letter-spacing: 1.8rem;
+    font-size: 2rem;
   }
 }
 
-@media (min-width: 1100px) {
+@media (max-width: 600px) {
   .sites {
-    font-size: 10rem;
-    letter-spacing: 2.2rem;
+    width: 305px;
+    height: 175px;
+    font-size: 4rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -364,6 +397,20 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 1100px) {
+  .yu {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .yu {
+    width: 305px;
+    height: 175px;
+    font-size: 4rem;
+  }
 }
 
 .yugarden {
@@ -385,9 +432,12 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 600px) {
   .yugarden {
+    width: 305px;
+    height: 30px;
     font-size: 2rem;
+    margin-top: -1rem;
   }
 }
 
@@ -406,6 +456,21 @@
           flex-direction: column;
 }
 
+@media (min-width: 1100px) {
+  .nanjing {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .nanjing {
+    width: 305px;
+    height: 30px;
+    font-size: 2rem;
+    margin-top: -1rem;
+  }
+}
+
 .nanjingroad {
   position: relative;
   font-size: 5rem;
@@ -422,9 +487,12 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 600px) {
   .nanjingroad {
+    width: 305px;
+    height: 30px;
     font-size: 2rem;
+    margin-top: -1rem;
   }
 }
 
@@ -443,6 +511,21 @@
           flex-direction: column;
 }
 
+@media (min-width: 1100px) {
+  .pearl {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .pearl {
+    width: 305px;
+    height: 30px;
+    font-size: 2rem;
+    margin-top: -1rem;
+  }
+}
+
 .pearltower {
   position: relative;
   font-size: 5rem;
@@ -459,9 +542,12 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 600px) {
   .pearltower {
+    width: 305px;
+    height: 175px;
     font-size: 2rem;
+    margin-top: -1rem;
   }
 }
 

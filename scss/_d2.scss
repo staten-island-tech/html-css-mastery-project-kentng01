@@ -12,8 +12,9 @@
       }
       @include phone {
         width: 305px;
-        height: 175px;
+        height: 120px;
         font-size: 4rem;
+        margin-top: -35rem;
         }
 }
 
@@ -24,15 +25,18 @@
     text-align: center;
     align-items: center;
     border-image: fill;
+
+    @include desktop {
+        font-size: 2rem;
+      }
+      @include phone {
+        width: 305px;
+        height: 175px;
+        font-size: 4rem;
+        flex-direction: column;
+        }
     
-    @include tablet {
-        font-size: 6rem;
-        letter-spacing: 1.8rem;
-      }
-      @include laptop {
-        font-size: 10rem;
-        letter-spacing: 2.2rem;
-      }
+
 }
 
 .yu{
@@ -41,6 +45,14 @@
     border-image: fill;
     text-align: center;
     align-items: center;
+    @include desktop {
+        font-size: 2rem;
+      }
+      @include phone {
+        width: 305px;
+        height: 175px;
+        font-size: 4rem;
+        }
 }
 
 .yugarden{
@@ -52,12 +64,16 @@
     margin-top: 6rem;
     text-align: center;
     align-items: center;
-    @include laptop{
-        font-size: 2rem;    
-    }
-    @include tablet{
+    @include desktop {
         font-size: 2rem;
-    }
+      }
+      @include phone {
+        width: 305px;
+        height: 30px;
+        font-size: 2rem;
+        margin-top: -1rem;
+        }
+
 }  
 
 .nanjing{
@@ -66,6 +82,16 @@
     width: 40rem;
     display: flex;
     flex-direction: column;
+
+    @include desktop {
+        font-size: 2rem;
+      }
+      @include phone {
+        width: 305px;
+        height: 30px;
+        font-size: 2rem;
+        margin-top: -1rem;
+        }
 }
 
 .nanjingroad{
@@ -76,12 +102,15 @@
     font-family: 'Permanent Marker', cursive;
     margin-top: 6rem;
     text-align: center;
-    @include laptop{
-        font-size: 2rem;    
-    }
-    @include tablet{
+    @include desktop {
         font-size: 2rem;
-    }
+      }
+      @include phone {
+        width: 305px;
+        height: 30px;
+        font-size: 2rem;
+        margin-top: -1rem;
+        }
 }  
 
 
@@ -91,6 +120,15 @@
     margin: 4rem;
     width: 40rem;
     flex-direction: column;
+    @include desktop {
+        font-size: 2rem;
+      }
+      @include phone {
+        width: 305px;
+        height: 30px;
+        font-size: 2rem;
+        margin-top: -1rem;
+        }
 }
 .pearltower{
     position: relative;
@@ -100,12 +138,15 @@
     font-family: 'Permanent Marker', cursive;
     margin-top: 6rem;
     text-align: center;
-    @include laptop{
-        font-size: 2rem;    
-    }
-    @include tablet{
+    @include desktop {
         font-size: 2rem;
-    }
+      }
+      @include phone {
+        width: 305px;
+        height: 175px;
+        font-size: 2rem;
+        margin-top: -1rem;
+        }
 }  
 
 
