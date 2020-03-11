@@ -52,7 +52,7 @@
     width: 305px;
     height: 175px;
     font-size: 4rem;
-    margin-top: 115px;
+    margin-top: 140px;
   }
 }
 
@@ -77,7 +77,7 @@
     width: 305px;
     height: 175px;
     font-size: 4rem;
-    margin-top: -25px;
+    margin-top: -10px;
   }
 }
 
@@ -347,9 +347,9 @@
 @media (max-width: 600px) {
   .extitle {
     width: 305px;
-    height: 120px;
+    height: 110px;
     font-size: 4rem;
-    margin-top: -35rem;
+    margin-top: -42rem;
   }
 }
 
@@ -601,9 +601,25 @@
   width: 45vw;
 }
 
+@media (max-width: 600px) {
+  .restaurant2 {
+    width: 305px;
+    height: 110px;
+    font-size: 1rem;
+  }
+}
+
 .food2 {
   color: darkcyan;
   text-transform: initial;
+}
+
+@media (max-width: 600px) {
+  .food2 {
+    width: 305px;
+    height: 110px;
+    font-size: 1rem;
+  }
 }
 
 .bao {

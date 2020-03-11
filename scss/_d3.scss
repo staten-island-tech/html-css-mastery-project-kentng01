@@ -35,11 +35,27 @@
     font-family: 'Righteous';
     text-transform: uppercase;
     width: 45vw;
+    
+    @include desktop {
+      }
+      @include phone {
+        width: 305px;
+        height: 110px;
+        font-size: 1rem;
+        }
 }
 
 .food2{
     color: darkcyan;
     text-transform: initial;
+    
+    @include desktop {
+    }
+    @include phone {
+      width: 305px;
+      height: 110px;
+      font-size: 1rem;
+      }
 }
 
 .bao{
