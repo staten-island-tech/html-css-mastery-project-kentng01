@@ -94,6 +94,14 @@
   width: 40rem;
 }
 
+@media (max-width: 600px) {
+  .gallery-parent {
+    width: 305px;
+    height: 75px;
+    margin-left: -50rem;
+  }
+}
+
 .gallery {
   position: relative;
 }
@@ -112,6 +120,15 @@
   width: 45vh;
 }
 
+@media (max-width: 600px) {
+  .bao {
+    height: 15vh;
+    width: 30vh;
+    margin-left: 225px;
+    margin-top: 150px;
+  }
+}
+
 .fish {
   top: 28rem;
   right: -15rem;
@@ -119,11 +136,29 @@
   width: 45vh;
 }
 
+@media (max-width: 600px) {
+  .fish {
+    height: 15vh;
+    width: 30vh;
+    margin-right: 146px;
+    margin-top: 80px;
+  }
+}
+
 .dimsum {
   top: -5rem;
   left: 20%;
   height: 25vh;
   width: 45vh;
+}
+
+@media (max-width: 600px) {
+  .dimsum {
+    height: 15vh;
+    width: 30vh;
+    margin-top: 150px;
+    margin-left: 4px;
+  }
 }
 
 .gang:hover {
@@ -603,9 +638,11 @@
 
 @media (max-width: 600px) {
   .restaurant2 {
+    margin-top: -30rem;
     width: 305px;
-    height: 110px;
-    font-size: 1rem;
+    height: 250px;
+    font-size: 3rem;
+    margin-left: 35px;
   }
 }
 
@@ -619,6 +656,7 @@
     width: 305px;
     height: 110px;
     font-size: 1rem;
+    margin-left: -30px;
   }
 }
 
@@ -1173,16 +1211,6 @@ body {
   background-image: url(../media/Restaurant.jpg);
   -webkit-clip-path: polygon(50% 90%, 97% 95%, 97% 7%, 3% 7%, 3% 95%);
           clip-path: polygon(50% 90%, 97% 95%, 97% 7%, 3% 7%, 3% 95%);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-@media (min-width: 900px) {
-  .restaurant {
-    font-size: 6rem;
-    letter-spacing: 1.8rem;
-  }
 }
 
 @media (min-width: 1100px) {
@@ -1191,6 +1219,9 @@ body {
     width: 100vw;
     height: 100vh;
     letter-spacing: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 

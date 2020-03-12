@@ -39,9 +39,11 @@
     @include desktop {
       }
       @include phone {
+        margin-top: -30rem;
         width: 305px;
-        height: 110px;
-        font-size: 1rem;
+        height: 250px;
+        font-size: 3rem;
+        margin-left: 35px;
         }
 }
 
@@ -55,6 +57,7 @@
       width: 305px;
       height: 110px;
       font-size: 1rem;
+      margin-left: -30px;
       }
 }
 

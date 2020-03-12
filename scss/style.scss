@@ -105,18 +105,16 @@ body{
   background-size: cover;
   background-image: url(../media/Restaurant.jpg);
   clip-path: polygon(50% 90%, 97% 95%, 97% 7%, 3% 7%, 3% 95%);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  @include tablet {
-    font-size: 6rem;
-    letter-spacing: 1.8rem;
-  }
-  @include laptop {
+  @include desktop {
     font-size: 10rem;
     width: 100vw;
     height: 100vh;
     letter-spacing: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  @include phone {;
   }
 }
 
