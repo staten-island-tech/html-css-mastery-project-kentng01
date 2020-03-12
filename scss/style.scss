@@ -55,15 +55,15 @@ body{
     background-image: url(../media/Nightview.jpeg);
     clip-path: polygon(50% 94%, 96% 85%, 96% 0, 4% 0, 4% 85%);
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
 
     @include desktop {
       width: 100vw;
       height: 100vh;
       font-size: 10rem;
       letter-spacing: 2.2rem;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
     }
     @include phone {
       font-size: 5rem;
@@ -81,14 +81,14 @@ body{
   margin: 0;
   background-image: url(../media/Night.jpg);
   clip-path: polygon(14% 2%, 86% 2%, 98% 10%, 98% 100%, 2% 100%, 2% 10%);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   @include desktop {
     width: 100vw;
     height: 100vh;
     font-size: 10rem;
     letter-spacing: 2.2rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   @include phone {
     font-size: 5rem;
