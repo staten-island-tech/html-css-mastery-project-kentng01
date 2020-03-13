@@ -17,6 +17,13 @@
     background: rgba(0, 0, 0, 0.85);
     border-radius: 15rem;
     margin-top: -10rem;
+    @include desktop{
+      }
+      @include phone {
+        width: 500px;
+        height: 300px;
+        margin-left: -1px;
+    }
 }
 
 .trip{
@@ -38,12 +45,26 @@
     text-transform: uppercase;
     width: 40vw;
     margin-top: 60rem;
+    @include desktop{
+      }
+      @include phone {
+        width: 305px;
+        height: 300px;
+        font-size: 4rem;
+        margin-top: 50rem;
+    }
 }
 
 .plane{
     z-index: 1;
-    width: 579px;
+    width: 577px;
     height: 375px;
     align-items: center;
     display: flex;
+    @include desktop {
+    }
+    @include phone {
+        margin-left: -42px;
+        margin-top: -5rem;
+  }
 }

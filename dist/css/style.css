@@ -263,8 +263,8 @@
 }
 
 .navigation_list {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-name: eh;
           animation-name: eh;
 }
@@ -655,8 +655,8 @@
   .food2 {
     width: 305px;
     height: 110px;
-    font-size: 1rem;
-    margin-left: -30px;
+    font-size: 13px;
+    margin-left: -37px;
   }
 }
 
@@ -697,6 +697,15 @@
   color: whitesmoke;
 }
 
+@media (max-width: 600px) {
+  .culttitle {
+    width: 30rem;
+    height: 10rem;
+    font-size: 4rem;
+    margin-top: 20rem;
+  }
+}
+
 .facts {
   height: 100vh;
   display: -webkit-box;
@@ -714,17 +723,19 @@
      border-image: fill;
 }
 
-@media (min-width: 900px) {
-  .facts {
-    font-size: 6rem;
-    letter-spacing: 1.8rem;
-  }
-}
-
 @media (min-width: 1100px) {
   .facts {
     font-size: 10rem;
     letter-spacing: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .facts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -738,6 +749,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 600px) {
+  .fact1 {
+    width: 30rem;
+    height: 10rem;
+    font-size: 4rem;
+  }
 }
 
 .word {
@@ -754,6 +773,16 @@
   margin-top: 4rem;
 }
 
+@media (max-width: 600px) {
+  .word {
+    width: 30rem;
+    height: 10rem;
+    margin-left: -15rem;
+    font-size: 3rem;
+    margin-top: -10rem;
+  }
+}
+
 .word-2 {
   position: absolute;
   text-align: center;
@@ -768,6 +797,14 @@
   margin-top: 4rem;
 }
 
+@media (max-width: 600px) {
+  .word-2 {
+    width: 30rem;
+    height: 10rem;
+    font-size: 4rem;
+  }
+}
+
 .fact2 {
   width: 70rem;
   display: -webkit-box;
@@ -780,6 +817,12 @@
           flex-direction: relative;
   background: rgba(196, 196, 196, 0.7);
   margin: 5rem;
+}
+
+@media (max-width: 600px) {
+  .fact2 {
+    display: none;
+  }
 }
 
 .trial1 {
@@ -820,6 +863,16 @@
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
+@media (max-width: 600px) {
+  .tags {
+    width: 28rem;
+    height: 20rem;
+    margin-left: -14rem;
+    font-size: 3rem;
+    margin-top: -10rem;
+  }
+}
+
 .rock {
   z-index: 1;
   -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
@@ -852,6 +905,14 @@
   margin-top: -10rem;
 }
 
+@media (max-width: 600px) {
+  .black {
+    width: 500px;
+    height: 300px;
+    margin-left: -1px;
+  }
+}
+
 .trip {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
@@ -880,9 +941,18 @@
   margin-top: 60rem;
 }
 
+@media (max-width: 600px) {
+  .trip {
+    width: 305px;
+    height: 300px;
+    font-size: 4rem;
+    margin-top: 50rem;
+  }
+}
+
 .plane {
   z-index: 1;
-  width: 579px;
+  width: 577px;
   height: 375px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -890,6 +960,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 600px) {
+  .plane {
+    margin-left: -42px;
+    margin-top: -5rem;
+  }
 }
 
 .navigation_button {
@@ -1251,19 +1328,15 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 900px) {
-  #adventure {
-    font-size: 6rem;
-    letter-spacing: 1.8rem;
-  }
-}
-
 @media (min-width: 1100px) {
   #adventure {
     width: 100vw;
     height: 100vh;
     font-size: 10rem;
     letter-spacing: 2.2rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1293,19 +1366,15 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 900px) {
-  .airplane {
-    font-size: 6rem;
-    letter-spacing: 1.8rem;
-  }
-}
-
 @media (min-width: 1100px) {
   .airplane {
     width: 100vw;
     height: 100vh;
     font-size: 10rem;
     letter-spacing: 2.2rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 /*# sourceMappingURL=style.css.map */

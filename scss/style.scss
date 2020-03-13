@@ -132,16 +132,18 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  @include tablet {
-    font-size: 6rem;
-    letter-spacing: 1.8rem;
-  }
+
   @include laptop {
     width: 100vw;
     height: 100vh;
     font-size: 10rem;
     letter-spacing: 2.2rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }
+  @include phone {
+}
 }
 
 .airplane{
@@ -158,14 +160,16 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  @include tablet {
-    font-size: 6rem;
-    letter-spacing: 1.8rem;
-  }
+
   @include laptop {
     width: 100vw;
     height: 100vh;
     font-size: 10rem;
     letter-spacing: 2.2rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }
+  @include phone {
+}
 }
